@@ -1,4 +1,4 @@
-# WaveDamp: Frequency Damper for Robust Image Classification
+# WaveDamp: Enhancing Natural Robustness in Endoscopy Through Wavelet-Based Frequency Damping
 
 <p align="center">
   <img src="assets/WaveDamp.png" width="750" alt="Damper Examples">
