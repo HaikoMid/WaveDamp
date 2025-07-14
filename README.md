@@ -8,6 +8,10 @@
 
 WaveDamp introduces a frequency damper module designed to suppress high-frequency content in images, encouraging deep neural networks (DNNs) to distribute attention across all frequency bands. WaveDamp significantly enhances medical robustness on naturally distorted endoscopic images and can be integrated with any existing network architecture and used alongside standard augmentation methods.
 
+## Frequency Damper Architecture
+
+The figure below demonstrates the wavelet-based architecture used to supress frequencies in images during training.
+
 <p align="center">
   <img src="assets/damper_architecture.png" width="750" alt="Damper Architecture">
 </p>
