@@ -10,7 +10,7 @@ WaveDamp introduces a frequency damper module designed to suppress high-frequenc
 
 ## Frequency Damper Architecture
 
-The figure below demonstrates the wavelet-based architecture used to supress frequencies in images during training.
+The figure below demonstrates the wavelet-based architecture used to supress frequencies in images during training. An input image is first decomposed into frequency components. These extracted multi-resolution HF components are then processed using the ResBlock modules, which include convolutional layers and activation functions. After the HF components are processed, the HFC is constructed, multiplied with the damping coefficient, and subtracted from the input image, creating an output image in which the high frequencies are damped.
 
 <p align="center">
   <img src="assets/damper_architecture.png" width="750" alt="Damper Architecture">
