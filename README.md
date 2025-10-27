@@ -73,5 +73,12 @@ python training/train_model.py <path/to/dataset> --evaluate --resume <path/to/ch
 ## Citation
 If you use WaveDamp in your research, please cite:
 ```
-Coming Soon
+@InProceedings{Middeljans_2025_ICCV,
+    author    = {Middeljans, Haiko and Kusters, Carolus H. J. and Jaspers, Tim J. M. and Jong, Martijn R. and Van Eijck Van Heslinga, Rixta A. H. and Slooter, Florance C. and De Groof, Albert J. and Bergman, Jacques J. and De With, Peter H. N. and Van Der Sommen, Fons},
+    title     = {WaveDamp: Enhancing Natural Robustness in Endoscopy Through Wavelet-Based Frequency Damping},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2025},
+    pages     = {604-614}
+}
 ```
