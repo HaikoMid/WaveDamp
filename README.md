@@ -71,7 +71,7 @@ python training/train_model.py <path/to/dataset> --evaluate --resume <path/to/ch
    ```
 
 ## Citation
-If you use WaveDamp in your research, please cite:
+If you use WaveDamp in your research, please consider citing:
 ```
 @InProceedings{Middeljans_2025_ICCV,
     author    = {Middeljans, Haiko and Kusters, Carolus H. J. and Jaspers, Tim J. M. and Jong, Martijn R. and Van Eijck Van Heslinga, Rixta A. H. and Slooter, Florance C. and De Groof, Albert J. and Bergman, Jacques J. and De With, Peter H. N. and Van Der Sommen, Fons},
